@@ -4,5 +4,6 @@ use (
 	"./Web Development/RestfulServiceUsingMux"
 	"./Web Development/WebServiceUsingGin"
 	./AdvancedGoFeatures/InterfacesAndUsage/MockingAndTesting
+	./FamilyFinanceProject
 	./Testing
 )
