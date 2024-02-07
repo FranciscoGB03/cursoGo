@@ -1,0 +1,5 @@
+mode: atomic
+Testing/testing/add.go:3.24,5.2 1 1
+Testing/testing/divide.go:5.36,6.12 1 2
+Testing/testing/divide.go:6.12,8.3 1 1
+Testing/testing/divide.go:9.2,9.19 1 1

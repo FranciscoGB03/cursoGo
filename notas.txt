@@ -1,0 +1,22 @@
+para agregar varios proyectos de go en visual estudio dentro de una misma carpeta, utilizar:
+go work init
+
+para agregar las carpetas a usar que contendran un archivo main:
+go work use -r */
+
+para compilar un archivo go se usa:
+go build nombre_archivo.go
+para ejecutar el archivo basta con:
+./nombre_archivo
+
+para ejecutar sin compilar:
+go run nombre_archivo.go
+
+Para generar un archivo go.mod:
+go mod init ruta/proyectos
+
+Nota: un archivo mod se crea para dar a conocer que se trata de un modulo, no necesariamente debe llevar el mismo nombre que el modulo pero si 
+debe ser unico
+
+Para instalar framework gin:
+go get -u github.com/gin-gonic/gin
